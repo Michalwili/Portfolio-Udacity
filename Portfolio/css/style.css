@@ -1,0 +1,85 @@
+﻿* {box-sizing: border-box;}
+body { 
+  margin: 0;
+  font-family: Arial;
+}
+.header {
+    overflow: hidden;
+}
+.header img {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    line-height: 15px;
+    border-radius: 4px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.header-right {
+    float: right;
+    margin-right: 100px;
+    font-family: Roboto;
+}
+.header-right p {
+    text-align: center;
+}
+main img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: nowrap;
+}
+section img {
+    width: 250px;
+    height: 150px;
+}
+section h1 {
+    text-align: center;
+}
+footer {
+    margin-top: 25px;
+    background-color: rgba(216, 212, 215, 0.92);
+    text-align: center;
+    height: 70px;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer div {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-left: 300px;
+}
+.fb:hover {
+    color: #2b2bd9;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+}
+.tw:hover {
+    color: #27a7eb;
+    cursor: pointer;
+    font-weight: 700;
+}
+.gh:hover {
+    color: #121224;
+    cursor: pointer;
+    font-weight: 700;
+}
+footer p {
+    clear: both;
+    margin-top: 10px;
+    font-size: 12px;
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+  .header img {
+    display: none;
+  }
+  .header-right h1 {
+       text-align: center;
+  }
+}
+@media screen and (max-width: 975px) {
+    .container, .image1, .image2, .image3 {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+}
