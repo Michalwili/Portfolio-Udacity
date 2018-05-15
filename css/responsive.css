@@ -1,0 +1,16 @@
+@media screen and (max-width: 400px) {
+  header h1 {
+      text-align: center;
+       
+  }
+}
+@media screen and (max-width: 975px) {
+    article {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        
+    }
+}
